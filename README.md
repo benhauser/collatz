@@ -4,6 +4,7 @@ Simple, brute force [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_c
 After running for a couple of days this was the output:
 
 ```
+% node collatz.js
 2 had 1 steps.
 3 had 7 steps.
 6 had 8 steps.
@@ -81,3 +82,5 @@ After running for a couple of days this was the output:
 13371194527 had 1210 steps.
 17828259369 had 1213 steps.
 ```
+
+So I can confirm the conjecture holds up to 17 billion (1.7 x 10^10^) or so. This conjecture has been checked up to [2.36 × 10^21^](https://en.wikipedia.org/wiki/Collatz_conjecture#cite_note-Barina-13) so I've only redone the first 10^11^th of that. That is, the first 100 billionth. Geesh.
