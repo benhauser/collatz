@@ -83,4 +83,4 @@ After running for a couple of days this was the output:
 17828259369 had 1213 steps.
 ```
 
-So I can confirm the conjecture holds up to 17 billion (1.7 x 10^10^) or so. This conjecture has been checked up to [2.36 × 10^21^](https://en.wikipedia.org/wiki/Collatz_conjecture#cite_note-Barina-13) so I've only redone the first 10^11^th of that. That is, the first 100 billionth. Geesh.
+So I can confirm the conjecture holds up to 17 billion (1.7 x 10^10) or so. This conjecture has been checked up to [2.36 × 10^21](https://en.wikipedia.org/wiki/Collatz_conjecture#cite_note-Barina-13) so I've only redone the first 10^11th of that. That is, the first 100 billionth. Geesh.
