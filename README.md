@@ -90,11 +90,23 @@ So I can confirm the conjecture holds up to 17 billion (1.7 x 10^10) or so. This
 
 ## C: collatz.c
 
-I did a version in C and optimized it a little bit. I ran it for a few weeks on my little M2 MacBook Air. This was what Activity Monitor looked like during the run:
+I did a version in C and optimized it a little bit.
+
+### How to Compile
+
+`> gcc -O3 -march=native -o collatz collatz.c`
+
+### How to Run
+
+`> time ./collatz`
+
+### Results
+
+I ran it for a few weeks on my M2 MacBook Air. This was what Activity Monitor looked like during the run:
 
 <img width="1069" height="752" alt="Screenshot 2025-08-16 at 9 36 47 am" src="https://github.com/user-attachments/assets/a9b9255e-9e2e-49c3-a4f4-4bc5968e94aa" />
 
-And this was how far it got before I hit Ctrl-C:
+And this was how far it got before I lost patience and hit Ctrl-C:
 
 <img width="717" height="707" alt="Screenshot 2025-08-16 at 9 37 54 am" src="https://github.com/user-attachments/assets/863f54be-dfb2-486a-9fd5-69257a24baff" />
 
