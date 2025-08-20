@@ -1,4 +1,7 @@
 # collatz
+
+## JavaScript: collatz.js
+
 Simple, brute force [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture) tester in JavaScript.
 
 After running for a couple of days this was the output:
@@ -84,3 +87,17 @@ After running for a couple of days this was the output:
 ```
 
 So I can confirm the conjecture holds up to 17 billion (1.7 x 10^10) or so. This conjecture has been checked up to [2.36 × 10^21](https://en.wikipedia.org/wiki/Collatz_conjecture#cite_note-Barina-13) so I've only redone the first 10^11th of that. That is, the first 100 billionth. Geesh.
+
+## C: collatz.c
+
+I did a version in C and optimized it a little bit. I ran it for a few weeks on my little M2 MacBook Air. This was what Activity Monitor looked like during the run:
+
+<img width="1069" height="752" alt="Screenshot 2025-08-16 at 9 36 47 am" src="https://github.com/user-attachments/assets/a9b9255e-9e2e-49c3-a4f4-4bc5968e94aa" />
+
+And this was how far it got before I hit Ctrl-C:
+
+<img width="717" height="707" alt="Screenshot 2025-08-16 at 9 37 54 am" src="https://github.com/user-attachments/assets/863f54be-dfb2-486a-9fd5-69257a24baff" />
+
+That's 1,069,200,000,000,000 or 1.0692 x 10^15. One quadrillion!
+
+That's half of the first one millionth of the previously covered space. Not too bad :D
